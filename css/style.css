@@ -1,0 +1,196 @@
+@font-face {
+    font-family:"Itim";
+    src: url('../fonts/Itim/Itim-Regular.ttf');
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Itim";
+}
+header {
+    height:12vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+}
+.logo{
+    height: 12vh;
+}
+nav{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    
+    
+}
+.boton{
+    border: 1px solid #523be4;
+    padding: 10px;
+    background-color: #523be4;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+    text-align: center;
+   
+}
+.botonb{
+    border: 1px solid #0a0a0a;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #0f0f0f;
+    text-decoration: none;
+    border-radius: 50px;
+    
+   
+}
+.botona{
+    text-decoration: none;
+    color: black;
+}
+.botona:hover{
+    text-decoration:underline;
+}
+.menu{
+    
+    
+    font-size: 1.2vw;
+    padding: 1.7vw;
+   border-left-width: 1px; 
+    border-left-style: solid;
+    border-left-color: rgb(51, 49, 49);
+    text-decoration: none;
+    color: black;
+
+}
+.img img{
+    width: 60vw;
+    padding: 4vw;
+}
+
+.s1{
+    display: flex;
+    
+}
+.s1-s2-aa{
+    display: flex;
+    gap: 1vw; 
+    text-align: center;  
+    
+    
+}
+h1{
+    font-size: 6vw;
+}
+.img-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4vh;
+
+    
+}
+/* ******************************************* */
+.s2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(241, 236, 230);
+    padding: 4vw;
+}
+.s2-img img{
+    width: 30vw;
+}
+.s2-s1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4vw;
+    width: 35vw;
+}
+.s2-s1-id{
+    display: flex;
+    gap: 1vw;
+}
+.s2-s1-id i{
+    padding-top: 0.3vw;
+}
+.s2-s1-aa{
+    display: flex;
+    margin-top: 4vh;
+    gap: 1vw;
+    align-items: center;
+    text-align: center
+    ;
+}
+.s3{
+    background-color: rgb(241, 236, 230);
+    display: flex;
+    padding: 6vw;
+    gap: 3.6vw;
+   
+    
+    justify-content:space-around;
+    
+    
+
+}
+.s3-ipp{ 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 2vw;
+    text-align:center
+    
+    
+    
+    
+    
+}
+.s3-ipp img{
+    width: 10vw;
+   
+
+}
+.s4{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6vw;
+}
+.s4-s2 img {
+    width: 30vw;
+
+}
+.parr{
+    font-size: 2.5vw;
+    text-align:left;
+}
+.s4-s1{
+    width: 35vw;
+}
+.s4-s1-is{
+    padding-bottom: 4vh;
+}
+.s4-s1-spp{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding-bottom: 2vw;
+}
+.s4-s1-aa{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.s4-s1-ps{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding-top: 2vw;
+}
